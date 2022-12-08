@@ -176,6 +176,9 @@ footer div{
 .card .signup{
     border: 2px solid #f9faf8;
     width: max-content;
+    font-size: 18px;
+    padding: 10px 15px;
+    font-weight: 700;
 }
 
 
