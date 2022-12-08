@@ -1,0 +1,184 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+nav{
+    margin: 0px 0px 100px 0px;
+}
+
+footer{
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 2% ;
+}
+
+footer div{
+    margin-left:43%;
+    margin-right: 43%;
+}
+
+/*  Class selectors */
+
+.flex_container{
+    display: flex;
+}
+
+.top{
+    background-color: #1f2937;
+    padding: 20px 200px;
+}
+
+.main_text{
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 950;
+    font-family: sans-serif;
+}
+
+.secondary_text{
+    color: #e5e7eb;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px ;
+    
+}
+
+
+.link{
+    font-size: 18px;
+    color: #f9faf8;
+    flex: 1;
+}
+
+.logo_link{
+    font-size: 24px;
+    flex:4;
+}
+
+.signup{
+    border: 1px solid #3882f6;
+    background-color: #3882f6;
+    width: max-content;
+    padding: 5px 30px;
+    border-radius: 5px;
+    color: #f9faf8;
+}
+
+
+.t_container{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.top_img{
+    min-width: 500px;
+    min-height: 200px;
+    border: 2px solid white;
+    background-color: grey;
+}
+
+.textbox{
+    max-width: 50%;
+    margin-right: 10%;
+}
+
+.mid_1{
+   padding-top: 2%;
+   padding-bottom: 4%;
+}
+
+.info{
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 950;
+    
+}
+
+
+.tile{
+    width: max-content;
+    height: max-content;
+}
+
+.tiles{
+    justify-content: center;
+    gap: 5%;
+    margin: 3% 0px;
+
+}
+
+.info.flex_container{
+    justify-content: center;
+    align-items: center;
+}
+
+.image{
+    height: 180px;
+    width: 180px;
+    border: 5px solid #3882f6;
+    border-radius: 10px;
+}
+
+.txt{
+    max-width: 180px;
+    text-align: center;
+}
+
+.mid_2{
+    background-color: #e5e7eb;
+    padding: 5% 15%;
+}
+
+.mid_2 .flex_container{
+    justify-content: center;
+    font-size: 36px;
+    font-weight: lighter;
+}
+
+.name{
+    position: relative;
+    left: 80%;
+    font-size: 28px;
+    font-weight: 700;
+    max-width: fit-content;
+}
+
+.mid_3{
+    padding: 5%;
+}
+
+.mid_3.flex_container{
+    justify-content: center;
+}
+
+.card{
+    background-color: #3882f6;
+    border-radius: 10px;
+    color: #f9faf8;
+    padding: 2% 5%;
+    gap: 10%;
+    width: 52%;
+    font-size: 24px;
+}
+
+
+.card .signup{
+    border: 2px solid #f9faf8;
+    width: max-content;
+}
+
+
+#small{
+    font-size: 18px;
+}
