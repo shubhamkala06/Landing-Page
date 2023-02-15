@@ -21,11 +21,8 @@ footer{
     background-color: #1f2937;
     color: #f9faf8;
     padding: 2% ;
-}
-
-footer div{
-    margin-left:43%;
-    margin-right: 43%;
+    display: flex;
+    justify-content: center;
 }
 
 /*  Class selectors */
@@ -82,8 +79,8 @@ footer div{
 }
 
 .top_img{
-    min-width: 500px;
-    min-height: 200px;
+    min-width: 30rem;
+    min-height: 14rem;
     border: 2px solid white;
     background-color: grey;
 }
@@ -155,7 +152,7 @@ footer div{
 }
 
 .mid_3{
-    padding: 5%;
+    padding:5% 0%;
 }
 
 .mid_3.flex_container{
@@ -166,22 +163,25 @@ footer div{
     background-color: #3882f6;
     border-radius: 10px;
     color: #f9faf8;
-    padding: 2% 5%;
-    gap: 10%;
-    width: 52%;
+    padding: 3% 3%;
     font-size: 24px;
+    width: 60rem;
+    justify-content: space-around;
+    font-weight:600;
 }
 
 
 .card .signup{
     border: 2px solid #f9faf8;
-    width: max-content;
+    border-radius: 5px;
     font-size: 18px;
-    padding: 10px 15px;
-    font-weight: 700;
+    height: fit-content;
+    width: max-content;
+
 }
 
 
 #small{
     font-size: 18px;
+    font-weight: 100;
 }
